@@ -1,9 +1,5 @@
 # apollo-server-link
 
-title: apollo-link-schema
-
-description: Assists with mocking and server-side rendering
-
 The server link provides a [graphql execution environment](http://graphql.org/graphql-js/graphql/#graphql), which allows you to perform GraphQL operations on a provided server instance. This type of behavior is commonly used for server-side rendering (SSR) to avoid network calls and to unify caching.
 
 ## Installation
@@ -35,3 +31,6 @@ The `ServerLink` constructor can be called with an object with the following pro
 - `server`: an [apollo server instance](https://www.npmjs.com/package/apollo-server)
 - `context`: (optional) an object passed to the resolvers, following the [graphql specification](http://graphql.org/learn/execution/#root-fields-resolvers) or a function that accepts the operation and returns the resolver context. The resolver context may contain all the data-fetching connectors for an operation.
 - `requestHandler`: (optional) A function which receives an `Operation` and a `NextLink` and returns an Observable of an `ExecutionResult`
+
+## Blog post
+Coming soon: nextcart.com/blog
