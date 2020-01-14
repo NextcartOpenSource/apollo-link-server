@@ -35,10 +35,9 @@ export default class ServerLink extends ApolloLink {
   constructor(
     private server: ApolloServer,
     private context?: Record<string, any>,
-    private addTypenames: boolean = false,
-    request?: RequestHandler,
+    requestHandler?: RequestHandler,
   ) {
-    super(request);
+    super(requestHandler);
   }
 
   public request = (
