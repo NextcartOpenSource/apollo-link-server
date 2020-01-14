@@ -1,11 +1,8 @@
 # apollo-server-link
 
----
+title: apollo-link-schema
 
-title: apollo-link-server
-description: Use an Apollo Server instance to request data.
-
----
+description: Assists with mocking and server-side rendering
 
 The server link provides a [graphql execution environment](http://graphql.org/graphql-js/graphql/#graphql), which allows you to perform GraphQL operations on a provided server instance. This type of behavior is commonly used for server-side rendering (SSR) to avoid network calls and to unify caching.
 
