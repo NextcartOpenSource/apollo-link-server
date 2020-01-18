@@ -9,7 +9,8 @@ import {
 } from "apollo-link";
 import { GraphQLError, GraphQLFormattedError, print } from "graphql";
 
-export default class ServerLink extends ApolloLink {
+// eslint-disable-next-line import/prefer-default-export
+export class ServerLink extends ApolloLink {
   private static formatGraphQLErrors = (
     formattedErrors:
       | Readonly<Array<GraphQLFormattedError<Record<string, any>>>>

@@ -3,7 +3,7 @@ import { ApolloServer } from "apollo-server-micro";
 import gql from "graphql-tag";
 import { ApolloClient } from "apollo-client";
 import { InMemoryCache } from "apollo-cache-inmemory";
-import ServerLink from "../apolloLinkServer";
+import { ServerLink } from "../apolloLinkServer";
 
 const TYPE_DEFS = gql`
   type TestResponse {
