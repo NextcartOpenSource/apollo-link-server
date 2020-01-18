@@ -1,6 +1,6 @@
 {
   "name": "@nextcart/apollo-link-server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Use an Apollo Server instance to request data.",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
