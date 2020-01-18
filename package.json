@@ -1,6 +1,6 @@
 {
-  "name": "apollo-link-server",
-  "version": "1.0.0",
+  "name": "@nextcart/apollo-link-server",
+  "version": "1.0.2",
   "description": "Use an Apollo Server instance to request data.",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -20,12 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stuart4/apollo-link-server.git"
+    "url": "git+https://github.com/NextcartOpenSource/apollo-link-server.git"
   },
   "bugs": {
-    "url": "https://github.com/stuart4/apollo-link-server/issues"
+    "url": "https://github.com/NextcartOpenSource/apollo-link-server/issues"
   },
-  "homepage": "https://github.com/stuart4/apollo-link-server#readme",
+  "homepage": "https://github.com/NextcartOpenSource/apollo-link-server#readme",
   "keywords": [
     "backend",
     "apollo",
